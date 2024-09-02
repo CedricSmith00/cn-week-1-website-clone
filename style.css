@@ -14,7 +14,6 @@ a {
     display:flex;
     /* max-width: 575.5px; */
     width: 100%;
-    margin: 0 auto;
     padding:0px;
   }
 
@@ -117,8 +116,9 @@ a {
   }
 
   .center{
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    left: 400px;
+    top: 650px;
   }
 
   a:hover {
@@ -130,9 +130,33 @@ a {
     text-align: center;
   }
 
+  .greentext{
+    color: green;
+  }
+
   .flex-nav2 ul{
     display:flex;
     list-style:none;
     margin: 10;
     width: 100%;
   }
+
+.textsizeL{
+ font-size: 30px;
+}
+
+.textsizeS{
+  font-size: 15px;
+  padding-right: 20%;
+ }
+
+.lowerpage{
+  position: absolute;
+  top: 750px;
+  left: 400px
+}
+.lowerpage2{
+  position: absolute;
+  top: 660px;
+  left: 400px
+}
